@@ -1,11 +1,12 @@
 *.nfs*
 *.swp
-*.log
 *a.out
+*.log
 
 # Ignore everything in model directory
 build/*
 !build/.keep
+!build/*log
 
 # Ignore generated logs from back-end
 # Good for 10 levels of hierarchy
@@ -97,10 +98,10 @@ history.sims
 ucli.key
 
 # Ignore temporary pyv files
-*.v.tmp
-*.h.tmp
-*.tmp.v
-*.tmp.h
+# *.v.tmp
+# *.h.tmp
+# *.tmp.v
+# *.tmp.h
 
 # Ignore generated .pyc files (specifically for pyhplib)
 *.pyc

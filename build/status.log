@@ -1,0 +1,4 @@
+Diag: build                                      PASS
+Tue Dec  8 23:19:41 CST 2020
+sim.log: 27702500: Simulation -> PASS (HIT GOOD TRAP)
+NumTiles=         1
